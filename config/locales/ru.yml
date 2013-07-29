@@ -1,11 +1,13 @@
 ---
 ru:
-  ad_hoc_option_type: 'Специальный тип опций'
-  ad_hoc_option_types: 'Специальные типы опций'
+  ad_hoc_option_type: 'ad hoc опция'
+  ad_hoc_option_types: 'ad hoc опции'
   ad_hoc_variant_exclusion: 'Специальный вариант исключения'
   ad_hoc_variant_exclusions: 'Специальный вариант исключений'
   ad_hoc_variant_exclusions_unavailable: "Требуется настроить исключения если имеется больше чем один специальный вариант"
   add_customizable_product_option: 'Добавить настраиваемый вариант'
+  add_option_type: Добавить опцию
+  add_option_types: Добавить опции
   add_option_values: "Добавить значения опции"
   add_product_customization_type: 'Добавить тип настройки товара'
   add_product_customization_types: 'Добавить типы настройки товара'
@@ -33,6 +35,7 @@ ru:
   price_modifier: "Цена корректировки"
   price_modifier_type: "Какаую стратегию модификатора цены использовать для опции этого типа?"
   required: "Требуется?"
+  none_available: Ни одного
   notice_messages:
     option_value_removed: "Значение опции удалено"
     product_customization_type_removed: "Типа настройки товара удалён"
@@ -40,7 +43,8 @@ ru:
   not_all_combinations_available: "Обратите внимание, что не все комбинации опции доступны"
   partial: 'При желании переопределяет значение стандартного партиала'
   price_per_letter: 'Цена за письмо'
-  product_customization_type: 'Тип настройки товара'
-  product_customization_types: 'Типы настроек'
+  product_customization_type: Пользовательская опция
+  product_customization_types: Пользовательские опции
   reset: 'Сброс'
   select_variant_options: 'Опции'
+  these_can_be_used_to_dynamically_create_ad_hoc_variants: Добавляйте товарные опции для создания ad hoc опций
