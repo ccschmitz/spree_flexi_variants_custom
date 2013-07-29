@@ -1,17 +1,17 @@
 <%= f.field_container :name do %>
-  <%= f.label :name, t("name") %><br />
+  <%= f.label :name, Spree.t("name") %><br />
   <%= f.text_field :name %>
   <%= f.error_message_on :name %>
 <% end %>
 
 <%= f.field_container :presentation do %>
-  <%= f.label :presentation, t("presentation") %><br />
+  <%= f.label :presentation, Spree.t("presentation") %><br />
   <%= f.text_field :presentation %>
   <%= f.error_message_on :presentation %>
 <% end %>
 
 <%= f.field_container :description do %>
-  <%= f.label :description, t("description") %><br />
+  <%= f.label :description, Spree.t("description") %><br />
   <%= f.text_field :description %>
   <%= f.error_message_on :description %>
 <% end %>
