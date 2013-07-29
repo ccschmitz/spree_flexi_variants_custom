@@ -3,19 +3,19 @@
 <%= render :partial => 'spree/admin/shared/product_tabs', :locals => {:current => "Ad Hoc Variant Exclusions"} %>
 
 <% if @product.ad_hoc_option_types.size <= 1 %>
-  <h2><%= t("ad_hoc_variant_exclusions_unavailable") %></h2>
+  <h2><%= Spree.t("ad_hoc_variant_exclusions_unavailable") %></h2>
 <% else %>
 
 <div class='toolbar'>
   <ul class='actions'>
     <li id="new_ot_link">
-      <%= button_link_to t("new_ad_hoc_variant_exclusion"), new_admin_product_ad_hoc_variant_exclusion_url, {:remote => true, :icon => 'add', :id => 'new_ad_hoc_variant_exclusion_link'} %>
+      <%= button_link_to Spree.t("new_ad_hoc_variant_exclusion"), new_admin_product_ad_hoc_variant_exclusion_url, {:remote => true, :icon => 'add', :id => 'new_ad_hoc_variant_exclusion_link'} %>
     </li>
   </ul>
   <br class='clear' />
 </div>
 
-<h1><%= t("ad_hoc_variant_exclusions") %></h1>
+<h1><%= Spree.t("ad_hoc_variant_exclusions") %></h1>
 
 <div id="new_ad_hoc_variant_exclusion"></div>
 
@@ -27,7 +27,7 @@
     <% sorted_ots = @product.ad_hoc_option_types.sort {|x,y| x.presentation <=> y.presentation} %>
 
     <% sorted_ots.each do |ot| %>
-      <th><%= t("option_value") %> for <%= t("option_type")%> <%= ot.presentation %> </th>
+      <th><%= Spree.t("option_value") %> for <%= Spree.t("option_type")%> <%= ot.presentation %> </th>
     <% end %>
     <th></th>
   </tr>

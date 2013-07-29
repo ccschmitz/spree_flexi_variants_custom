@@ -4,7 +4,7 @@
 
 <%= form_for(@ad_hoc_variant_exclusion, :url => admin_product_ad_hoc_variant_exclusions_url(@product)) do |f| %>
   <fieldset>
-    <legend><%= t("new_ad_hoc_variant_exclusion") %></legend>
+    <legend><%= Spree.t("new_ad_hoc_variant_exclusion") %></legend>
     <%= render :partial => "form", :locals => { :f => f } %>
 
     <!--     < %= render :partial => 'admin/shared/new_resource_links' % >
@@ -12,8 +12,8 @@
     -->
 
     <p class="form-buttons">
-      <%= button t("actions.create") %>
-      <%= t("or") %> <%= link_to t("actions.cancel"), admin_product_ad_hoc_variant_exclusions_url(@product) %>
+      <%= button Spree.t("actions.create") %>
+      <%= Spree.t("or") %> <%= link_to Spree.t("actions.cancel"), admin_product_ad_hoc_variant_exclusions_url(@product) %>
     </p>
   </fieldset>
 <% end %>
