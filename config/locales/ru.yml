@@ -10,8 +10,9 @@ ru:
     add_option_type: Добавить опцию
     add_option_types: Добавить опции
     add_option_values: Добавить значения опции
-    add_product_customization_type: Добавить тип настройки товара
-    add_product_customization_types: Добавить типы настройки товара
+    add_product_customization_type: Добавить пользовательскую опцию
+    add_product_customization_types: Добавить пользовательские опции
+    cost_price_modifier: Корректировка себестоимости
     customizable_product_options: Настраиваемые параметры
     customize: Настроить
     data_type: Тип данных (для проверки ввода)
@@ -32,10 +33,7 @@ ru:
     multiplier: Множитель
     new_ad_hoc_variant_exclusion: Создать новое исключение
     new_customizable_product_option: Создать новую опцию настройки
-    new_product_customization_type: Создать новый тип настройки товара
-    price_modifier: Цена корректировки
-    price_modifier_type: Какаую стратегию модификатора цены использовать для опции этого типа?
-    required: Требуется?
+    new_product_customization_type: Создать новую пользовательскую опцию
     none_available: Ни одного
     notice_messages:
       option_value_removed: Значение опции удалено
@@ -43,9 +41,14 @@ ru:
       ad_hoc_variant_exclusion_removed: Исключение удалено
     not_all_combinations_available: Обратите внимание, что не все комбинации опции доступны
     partial: При желании переопределяет значение стандартного партиала
+    position_within_product: Позиция на странице продукта
+    price_modifier: Корректировка цены
+    price_modifier_type: Какаую стратегию модификатора цены использовать для опции этого типа?
     price_per_letter: Цена за письмо
     product_customization_type: Пользовательская опция
     product_customization_types: Пользовательские опции
+    required: Обязательо указывать при заказе?
     reset: Сброс
+    selected_by_default: Выбрано по умолчанию?
     select_variant_options: Опции
     these_can_be_used_to_dynamically_create_ad_hoc_variants: Добавляйте товарные опции для создания ad hoc опций
